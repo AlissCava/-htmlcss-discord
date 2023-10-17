@@ -203,21 +203,48 @@ h3{
     align-items: center;
     /* debug */
     min-height: 400px;
-    background-color: lightslategray;
+    background-color: rgb(29, 29, 29);
+}
+
+#h1foot{
+    width: 70%;
+    font-size: 70px;
+    color: rgb(157, 150, 195);
+}
+
+#lingua{
+    color: white;
+}
+
+#icon{
+    color: white;
 }
 
 #red{
     height: 350px;
     width: 20%;
-    background-color:lightcoral;
-    border: 2px solid black;
+    /* background-color:lightcoral;
+    border: 2px solid black; */
 }
 
 .greencolumn{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
     height: 350px;
     width: 10%;
-    background-color:lightcoral;
-    border: 2px solid white;
+    /* background-color:rgb(182, 255, 220);
+    border: 2px solid white; */
+}
+
+.primo{
+    color: rgb(157, 150, 195);
+}
+
+.column p{
+    color: white;
+    margin: 10px;
 }
 
 #footDOWN{
@@ -227,7 +254,7 @@ h3{
     align-items: flex-end;
     /* debug */
     min-height:80px;
-    background-color: lightslategray;
+    background-color: rgb(29, 29, 29);
 }
 
 #cont{
@@ -238,14 +265,19 @@ h3{
     align-items: center;
     /* debug */
     width: 60%;
-    height: 50px;
-    background-color: aquamarine;
-    border: 2px solid black;
+    height: 100px;
+    /* background-color: aquamarine;
+    border: 2px solid black; */ */
 }
 
 .fo{
-    background-color: rgb(254, 182, 182);
-    border: 2px solid black;
+    color: white;
+    background-color: rgb(157, 150, 195);
+    border: 10px solid rgb(157, 150, 195);
+    border-radius: 20px;
+    
+    /* background-color: rgb(254, 182, 182);
+    border: 2px solid black; */
 }
 
 
